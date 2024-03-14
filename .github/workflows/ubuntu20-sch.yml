@@ -1,7 +1,7 @@
 name: ubunt-20-sch
 on:
   schedule:
-    - cron: '*/22 * * * *' # 
+    - cron: '*/21 * * * *' # 
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
